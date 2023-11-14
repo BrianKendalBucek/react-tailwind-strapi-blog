@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { Navbar, Footer, BlogContent } from "../components"
 
 const BlogContentPage = ({blogs}) => {
