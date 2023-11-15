@@ -381,6 +381,7 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     authorImg: Attribute.Media;
     authorName: Attribute.String;
     authorDesc: Attribute.String;
+    testForJson: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

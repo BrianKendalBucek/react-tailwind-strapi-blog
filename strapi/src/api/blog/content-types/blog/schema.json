@@ -33,20 +33,24 @@
       "type": "blocks"
     },
     "authorImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "authorName": {
       "type": "string"
     },
     "authorDesc": {
       "type": "string"
+    },
+    "testForJson": {
+      "type": "json"
     }
   }
 }
